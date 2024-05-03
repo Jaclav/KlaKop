@@ -6,7 +6,7 @@ from scipy.io import wavfile
 from scipy.spatial.distance import pdist, squareform
 
 
-sample_rate, data = wavfile.read(r'kop5.wav')
+sample_rate, data = wavfile.read(r'kop7.wav')
 
 data = data[:,0]
 
