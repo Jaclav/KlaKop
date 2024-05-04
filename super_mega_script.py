@@ -6,7 +6,7 @@ from scipy.io import wavfile
 from scipy.spatial.distance import pdist, squareform
 
 
-sample_rate, data = wavfile.read(r'kop3.wav')
+sample_rate, data = wavfile.read(r'kop6.wav')
 
 data = data[:,0]
 
@@ -51,7 +51,10 @@ standard_deviation = np.std(differences)
 
 print(expected_value, standard_deviation, len(differences))
 
-plt.hist(differences, bins=15)
+plt.hist(differences, bins=20)
+plt.title('Histogram 6')
+plt.xlabel('czas [s]')
+plt.ylabel('ilość pomiarów')
 plt.show()
 
 # Plot
