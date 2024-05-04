@@ -20,50 +20,18 @@
 	\titlepage
 \end{frame}
 
-\begin{frame}{Co mogą zmierzyć mieszkańcy Falent?}
-	\begin{itemize}
-		\item $\pi$
-		\item $e$
-		\item Prędkość dźwięku w powietrzu ($1$ Mach)
-		\item Przenikalność magnetyczna próżni ($\epsilon_0$)
-		\item Przenikalność elektryczna próżni ($\mu_0$)
-		\item Stała Coulomba ($k_e$)
-		\item Prędkość światła ($c$)
-		\item Stała Plancka ($h$)
-		\item Zredukowana stała Plancka ($\hbar$)
-	\end{itemize}
-
-\end{frame}
-
-\section{Stałe matematyczne}
-
-\subsection{$\pi$}
-
-\begin{frame}{$\pi$ - igła Buffona}
-	$l=6.5cm$ - długość igły
-
-	$d=8cm$ - odległość między pionowymi liniami
-
-	$n=665$ - liczba rzutów
-
-	$R=334$ - liczba rzutów zakończonych przecięciem
-
-	$$p = \frac{2}{\pi} \frac{l}{d}$$
-	$$\frac{R}{n} = \frac{2}{\pi}\frac{l}{d}$$
-	$$\pi = \frac{2 l n}{d R}$$
-	$$\pi \approx 3.141$$
-
-\end{frame}
-
-%\subsection{$e$}
-
-% \begin{frame}{$e$ - całkowanie gumką}
-
-% \end{frame}
-
 \begin{frame}{Czym jest Mach?}
+\begin{columns}
 
+\begin{column}{0.3\linewidth}
+$$M = \frac{v_{ob}}{c}$$
+\end{column}
+
+\begin{column}{0.7\linewidth}
 	\includegraphics[width=\linewidth]{mach.jpg}
+\end{column}
+
+\end{columns}
 
 \end{frame}
 
@@ -75,17 +43,17 @@
 
 	\begin{columns}
 		\begin{column}{0.5\textwidth}
-			Lab:
+			Lab: \pause
 
-			\includegraphics[width=\linewidth]{lab_KlaKop.jpg}
+			\includegraphics[width=\linewidth]{lab_KlaKop.jpg} \pause
 		\end{column}
 		\begin{column}{0.5\textwidth}
-			Aparatura pomiarowa:
+			Aparatura pomiarowa: \pause
 			\begin{itemize}
-				\item Miarka 3m
-				\item Laptop
-				\item Dłonie Franka
-				\item Dłonie Jacka
+				\item Miarka 3m \pause
+				\item Laptop \pause
+				\item Dłonie Franka \pause
+				\item Dłonie Jacka \pause
 				\item Termometr i higrometr
 			\end{itemize}
 		\end{column}
@@ -103,7 +71,7 @@
 
 \begin{frame}{Dane}
 	\centering
-	\includegraphics[width=\linewidth]{Data.png}
+	\includegraphics[width=\linewidth]{Data.png} \pause
 	\includegraphics[width=0.7\linewidth]{Przechwycenie obrazu ekranu_2024-05-04_14-41-05.png}
 \end{frame}
 
@@ -120,7 +88,8 @@
 		7      & 0.0550   & 0.00119   & 762             \\
 		\bottomrule
 	\end{tabular}
-
+	
+\pause
 	\includegraphics[width=0.2\linewidth]{Hist3.png}
 	\includegraphics[width=0.2\linewidth]{Hist4.png}
 	\includegraphics[width=0.2\linewidth]{Hist5.png}
@@ -146,49 +115,35 @@
 
 \begin{frame}{Interpretacja wyników}
 	\includegraphics[width=\linewidth]{temp_humid_mach.png}
-
-	Prędkość dźwięku rośnie wraz ze wzrostem temperatury.
+	Prędkość dźwięku rośnie wraz ze wzrostem temperatury i maleje ze wzrostem wilgotności?
 \end{frame}
 
+\section{Stałe matematyczne}
 
-\section{Stałe fizyczne}
+\subsection{$\pi$}
 
-\begin{frame}{Przenikalność magnetyczna próżni}
-	indukcyjność cewki:
-	$$L = \frac{S\mu_0 n^2}{l}$$
+\begin{frame}{$\pi$ - igła Buffona}
+	$l=6.5cm$ - długość igły \pause
 
-	$S$ - pole przekroju cewki
-	$\mu_0$ - przenikalność magnetyczna próżni
-	$n$- ilość zwojów
-	$l$ - długość cewki
+	$d=8cm$ - odległość między pionowymi liniami \pause
 
-	$$\epsilon_c = -L\frac{dI}{dt}$$
+	$n=665$ - liczba rzutów \pause
 
-\end{frame}
+	$R=334$ - liczba rzutów zakończonych przecięciem \pause
 
-\begin{frame}{Przenikalność magnetyczna próżni}
-	$$I = \frac{\epsilon-\epsilon_c}{R}$$
+\begin{columns}
+\begin{column}{0.5\textwidth}
+	\includegraphics[width=\linewidth]{Buffon.jpg}
+\end{column}
 
-	$$I R = \epsilon + L\frac{dI}{dt}$$
-	$$\frac{dI}{dt}\frac{L}{IR-\epsilon}=1$$
-	$$L\int\frac{dI}{IR-\epsilon} = \int dt$$
-	$$\frac{L}{R}\log(IR-\epsilon) = t+c_1$$
-	$$IR - \epsilon = c_2 e^{\frac{Rt}{L}}$$
-	$$I = \frac{\epsilon}{R} + c_3 e^{\frac{Rt}{L}}$$
+\begin{column}{0.5\textwidth}
+	$$p = \frac{2}{\pi} \frac{l}{d}$$ \pause
+	$$\frac{R}{n} = \frac{2}{\pi}\frac{l}{d}$$ \pause
+	$$\pi = \frac{2 l n}{d R}$$ \pause
+	$$\pi \approx 3.141$$ \pause
+\end{column}
 
-\end{frame}
-
-\begin{frame}
-	$$I = \frac{\epsilon}{R} + c_3 e^{\frac{Rt}{L}}$$
-	$$I(0)= \frac{\epsilon}{R}$$
-	$$I = \frac{\epsilon}{R} + e^{\frac{Rt}{L}}$$
-\end{frame}
-
-\begin{frame}{Przenikalność elektryczna próżni}
-
-\end{frame}
-
-\begin{frame}{Stała Plancka}
+\end{columns}
 
 \end{frame}
 
@@ -197,14 +152,15 @@
 
 \begin{frame}{Dalsze kontynuacje badań}
 	\begin{itemize}
-		\item Stała Faradaya ($F$)
-		\item Ładunek elementarny ($e^-$)
-		\item Odległość Ziemia-Księżyc ($d_{\oplus - \leftmoon}$)
-		\item Promień Księżyca ($R_{\leftmoon}$)
+		\item $e$
+		\item Przenikalność magnetyczna próżni ($\epsilon_0$)
+		\item Przenikalność elektryczna próżni ($\mu_0$)
+		\item Stała Coulomba ($k_e$)
+		\item Prędkość światła ($c$)
+		\item Stała Plancka ($h$)
 	\end{itemize}
 
 \end{frame}
-
 
 
 \end{document}
