@@ -66,18 +66,25 @@ $$\pi =$$
 \subsection{Prędkość dźwięku w powietrzu}
 
 \begin{frame}{Prędkość dźwięku w powietrzu}
-\begin{itemize}
-\item Lab: [Zdjęcie Labu]
-\item aparatura pomiarowa:
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+Lab:
+
+\includegraphics[width=\linewidth]{lab_KlaKop.jpg}
+\end{column}
+\begin{column}{0.5\textwidth}
+Aparatura pomiarowa:
 	\begin{itemize}
-		\item Miarka $3$m
-		\item Laptop Jacka
+		\item Miarka 3m
+		\item Laptop
 		\item Dłonie Franka
 		\item Dłonie Jacka
 		\item Termometr i higrometr
 	\end{itemize}
-\end{itemize}
-[Zdjęcie eksperymentu]
+\end{column}
+\end{columns}
+
 \end{frame}
 
 \begin{frame}{Dane}
@@ -122,17 +129,44 @@ Pomiar & temperatura [C] & wilgotność [\%]  & mach [m/s]\\
 
 \end{frame}
 
-\begin{frame}{wyniki i dyskusja błędu pomiarowego}
+\begin{frame}{Interpretacja wyników}
 \includegraphics[width=\linewidth]{temp_humid_mach.png}
 
-Prędkość dźwięku rośnie ze wzrostem temperatury i maleje wraz ze wzrostem wilgotności.
+Prędkość dźwięku rośnie wraz ze wzrostem temperatury.
 \end{frame}
 
 
 \section{Stałe fizyczne}
 
 \begin{frame}{Przenikalność magnetyczna próżni}
+indukcyjność cewki:
+$$L = \frac{S\mu_0 n^2}{l}$$
 
+$S$ - pole przekroju cewki
+$\mu_0$ - przenikalność magnetyczna próżni
+$n$- ilość zwojów
+$l$ - długość cewki
+
+$$\epsilon_c = -L\frac{dI}{dt}$$
+
+\end{frame}
+
+\begin{frame}{Przenikalność magnetyczna próżni}
+$$I = \frac{\epsilon-\epsilon_c}{R}$$
+
+$$I R = \epsilon + L\frac{dI}{dt}$$
+$$\frac{dI}{dt}\frac{L}{IR-\epsilon}=1$$
+$$L\int\frac{dI}{IR-\epsilon} = \int dt$$
+$$\frac{L}{R}\log(IR-\epsilon) = t+c_1$$
+$$IR - \epsilon = c_2 e^{\frac{Rt}{L}}$$
+$$I = \frac{\epsilon}{R} + c_3 e^{\frac{Rt}{L}}$$
+
+\end{frame}
+
+\begin{frame}
+$$I = \frac{\epsilon}{R} + c_3 e^{\frac{Rt}{L}}$$
+$$I(0)= \frac{\epsilon}{R}$$
+$$I = \frac{\epsilon}{R} + e^{\frac{Rt}{L}}$$
 \end{frame}
 
 \begin{frame}{Przenikalność elektryczna próżni}
