@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1714826520 "/home/jacek/Falenty/KlaKop/Prezentacja/Falentyka.tex" "Falentyka.pdf" "Falentyka" 1714826521
+["pdflatex"] 1714826712 "/home/jacek/Falenty/KlaKop/Prezentacja/Falentyka.tex" "Falentyka.pdf" "Falentyka" 1714826714
   "/etc/texmf/web2c/texmf.cnf" 1659890762 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/jacek/Falenty/KlaKop/Prezentacja/Falentyka.tex" 1714826520 4896 46d640121ca5b4b9aba4d0f835a14553 ""
+  "/home/jacek/Falenty/KlaKop/Prezentacja/Falentyka.tex" 1714826712 4885 1e7fc49a7a12b272bba832be01bb76cf ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plme.enc" 1136849721 3126 59f33ff3e396436ebc36f4e7b444d5c4 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc" 1136849721 2005 f094775651a1386335c158fb632529f1 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc" 1136849721 2468 3f9e2f3088bcf5b581dfc367d71e7d95 ""
@@ -297,10 +297,10 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1690277048 4277260 6a7b4a2021ac7d4363897dbd97f3eb8d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1710434005 1448170 daa3acfe56d40cf134a061d5579fbf9d ""
   "Data.png" 1714825909 95868 8e54107f4fb22c6d7a353dd75cc719d9 ""
-  "Falentyka.aux" 1714826521 5206 fd85ebf0cfceff3b74265f7c0df8c52f "pdflatex"
-  "Falentyka.nav" 1714826521 2912 421938c10c50b08f1a508db65bee1774 "pdflatex"
-  "Falentyka.out" 1714826521 972 78924681d02e43b8bafbfd2899db7968 "pdflatex"
-  "Falentyka.tex" 1714826520 4896 46d640121ca5b4b9aba4d0f835a14553 ""
+  "Falentyka.aux" 1714826714 5206 fd85ebf0cfceff3b74265f7c0df8c52f "pdflatex"
+  "Falentyka.nav" 1714826714 2912 421938c10c50b08f1a508db65bee1774 "pdflatex"
+  "Falentyka.out" 1714826714 972 78924681d02e43b8bafbfd2899db7968 "pdflatex"
+  "Falentyka.tex" 1714826712 4885 1e7fc49a7a12b272bba832be01bb76cf ""
   "Hist3.png" 1714825909 9779 089c4664a7f6c10cb8300e8ebab4b2b8 ""
   "Hist4.png" 1714825909 10937 c17f01e4d2659cb7dd52978b618a8c00 ""
   "Hist5.png" 1714825909 7399 2992c533d169c08d59b95b1febe8cc43 ""
