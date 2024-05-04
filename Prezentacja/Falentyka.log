@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.14)  4 MAY 2024 14:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.14)  4 MAY 2024 14:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -926,13 +926,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 58.
 
+<mach.jpg, id=180, 1284.8pt x 917.4275pt>
+File: mach.jpg Graphic file (type jpg)
+<use mach.jpg>
+Package pdftex.def Info: mach.jpg  used on input line 68.
+(pdftex.def)             Requested size: 307.28987pt x 219.41716pt.
+
+Overfull \vbox (13.14127pt too high) detected at line 68
+ []
+
 [4
 
-]
+ <./mach.jpg>]
 <lab_KlaKop.jpg, id=212, 2007.5pt x 1505.625pt>
 File: lab_KlaKop.jpg Graphic file (type jpg)
 <use lab_KlaKop.jpg>
-Package pdftex.def Info: lab_KlaKop.jpg  used on input line 88.
+Package pdftex.def Info: lab_KlaKop.jpg  used on input line 94.
 (pdftex.def)             Requested size: 153.64493pt x 115.2144pt.
  [5
 
@@ -940,7 +949,7 @@ Package pdftex.def Info: lab_KlaKop.jpg  used on input line 88.
 <wave.png, id=246, 417.4797pt x 94.1919pt>
 File: wave.png Graphic file (type png)
 <use wave.png>
-Package pdftex.def Info: wave.png  used on input line 98.
+Package pdftex.def Info: wave.png  used on input line 104.
 (pdftex.def)             Requested size: 307.28987pt x 69.33153pt.
  [6
 
@@ -948,40 +957,44 @@ Package pdftex.def Info: wave.png  used on input line 98.
 <Data.png, id=283, 1305.37688pt x 432.86719pt>
 File: Data.png Graphic file (type png)
 <use Data.png>
-Package pdftex.def Info: Data.png  used on input line 104.
+Package pdftex.def Info: Data.png  used on input line 110.
 (pdftex.def)             Requested size: 307.28987pt x 101.89552pt.
 <Przechwycenie obrazu ekranu_2024-05-04_14-41-05.png, id=284, 613.29124pt x 311.1625pt>
 File: Przechwycenie obrazu ekranu_2024-05-04_14-41-05.png Graphic file (type png)
 <use Przechwycenie obrazu ekranu_2024-05-04_14-41-05.png>
-Package pdftex.def Info: Przechwycenie obrazu ekranu_2024-05-04_14-41-05.png  used on input line 104.
-(pdftex.def)             Requested size: 184.3758pt x 93.54413pt.
- [7
+Package pdftex.def Info: Przechwycenie obrazu ekranu_2024-05-04_14-41-05.png  used on input line 110.
+(pdftex.def)             Requested size: 215.10196pt x 109.1364pt.
+
+Overfull \vbox (5.75603pt too high) detected at line 110
+ []
+
+[7
 
  <./Data.png> <./Przechwycenie obrazu ekranu_2024-05-04_14-41-05.png>]
 <Hist3.png, id=319, 462.528pt x 346.896pt>
 File: Hist3.png Graphic file (type png)
 <use Hist3.png>
-Package pdftex.def Info: Hist3.png  used on input line 125.
+Package pdftex.def Info: Hist3.png  used on input line 131.
 (pdftex.def)             Requested size: 61.45703pt x 46.08788pt.
 <Hist4.png, id=320, 462.528pt x 346.896pt>
 File: Hist4.png Graphic file (type png)
 <use Hist4.png>
-Package pdftex.def Info: Hist4.png  used on input line 125.
+Package pdftex.def Info: Hist4.png  used on input line 131.
 (pdftex.def)             Requested size: 61.45703pt x 46.08788pt.
 <Hist5.png, id=321, 462.528pt x 346.896pt>
 File: Hist5.png Graphic file (type png)
 <use Hist5.png>
-Package pdftex.def Info: Hist5.png  used on input line 125.
+Package pdftex.def Info: Hist5.png  used on input line 131.
 (pdftex.def)             Requested size: 61.45703pt x 46.08788pt.
 <Hist6.png, id=322, 462.528pt x 346.896pt>
 File: Hist6.png Graphic file (type png)
 <use Hist6.png>
-Package pdftex.def Info: Hist6.png  used on input line 125.
+Package pdftex.def Info: Hist6.png  used on input line 131.
 (pdftex.def)             Requested size: 61.45703pt x 46.08788pt.
 <Hist7.png, id=323, 462.528pt x 346.896pt>
 File: Hist7.png Graphic file (type png)
 <use Hist7.png>
-Package pdftex.def Info: Hist7.png  used on input line 125.
+Package pdftex.def Info: Hist7.png  used on input line 131.
 (pdftex.def)             Requested size: 61.45703pt x 46.08788pt.
  [8
 
@@ -991,7 +1004,7 @@ Package pdftex.def Info: Hist7.png  used on input line 125.
 <temp_humid_mach.png, id=393, 925.056pt x 448.074pt>
 File: temp_humid_mach.png Graphic file (type png)
 <use temp_humid_mach.png>
-Package pdftex.def Info: temp_humid_mach.png  used on input line 147.
+Package pdftex.def Info: temp_humid_mach.png  used on input line 153.
 (pdftex.def)             Requested size: 307.28987pt x 148.84256pt.
  [10
 
@@ -1022,18 +1035,18 @@ Package rerunfilecheck Info: File `Falentyka.out' has not changed.
 (rerunfilecheck)             Checksum: 78924681D02E43B8BAFBFD2899DB7968;972.
  ) 
 Here is how much of TeX's memory you used:
- 36132 strings out of 480139
- 865972 string characters out of 5893693
+ 36139 strings out of 480139
+ 866059 string characters out of 5893693
  1226532 words of memory out of 5000000
- 53327 multiletter control sequences out of 15000+600000
+ 53333 multiletter control sequences out of 15000+600000
  488755 words of font info for 94 fonts, out of 8000000 for 9000
  79 hyphenation exceptions out of 8191
  128i,22n,122p,769b,624s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plme.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
-Output written on Falentyka.pdf (16 pages, 624898 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plme.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
+Output written on Falentyka.pdf (16 pages, 901847 bytes).
 PDF statistics:
- 689 PDF objects out of 1000 (max. 8388607)
- 595 compressed objects within 6 object streams
+ 685 PDF objects out of 1000 (max. 8388607)
+ 592 compressed objects within 6 object streams
  41 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 
