@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Stałe matematyczne}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{$\pi $}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{$e$}{4}{0}{1}
+\beamer@sectionintoc {2}{Parametry fizyczne}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Prędkość dźwięku w powietrzu}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Zasada działania}{6}{0}{2}
+\beamer@sectionintoc {3}{Stałe fizyczne}{11}{0}{3}
+\beamer@sectionintoc {4}{Podsumowanie}{16}{0}{4}
