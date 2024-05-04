@@ -1,0 +1,138 @@
+\documentclass{beamer}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{polski}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usepackage{wasysym}
+\usepackage{booktabs}
+\usetikzlibrary{arrows}
+\usetheme{Warsaw}
+\title{Ile ma Mach, czyli Falentyka}
+
+\author{Franciszek Hansdorfer \and Jacek Winiarczyk}
+\institute{Wydiział fizyki doświadczalnej instytutu Marii Mach}
+\date{\today}
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}{Co mogą zmierzyć mieszkańcy Falent?}
+\begin{itemize}
+\item $\pi$
+\item $e$
+\item Prędkość dźwięku w powietrzu ($1$ Mach)
+\item Przenikalność magnetyczna próżni ($\epsilon_0$)
+\item Stała Coulomba ($k_e$)
+\item Przenikalność elektryczna próżni ($\mu_0$)
+\item Prędkość światła ($c$)
+\item Stała Plancka ($h$)
+\item Zredukowana stała Plancka ($\hbar$)
+\end{itemize}
+
+\end{frame}
+
+\section{Stałe matematyczne}
+
+\subsection{$\pi$}
+
+\begin{frame}{$\pi$ - igła Buffona}
+$l$ - długość igły
+
+$d$ - odległość między pionowymi liniami
+
+$n$ - liczba rzutów
+
+$R$ - liczba rzutów zakończonych przecięciem
+
+$$p = \frac{2}{\pi} \frac{l}{d}$$
+$$\frac{R}{n} = \frac{2}{\pi}\frac{l}{d}$$
+$$\pi = \frac{2 l n}{d R}$$
+$$\pi =$$
+
+\end{frame}
+
+\subsection{$e$}
+
+\begin{frame}{$e$ - całkowanie gumką}
+
+\end{frame}
+
+\section{Parametry fizyczne}
+
+\subsection{Prędkość dźwięku w powietrzu}
+
+\begin{frame}{Prędkość dźwięku w powietrzu}
+\begin{itemize}
+\item Lab: [Zdjęcie Labu]
+\item aparatura pomiarowa:
+	\begin{itemize}
+		\item Miarka $3$m
+		\item Laptop Jacka
+		\item Dłonie Franka
+		\item Dłonie Jacka
+		\item Termometr i higrometr
+	\end{itemize}
+\end{itemize}
+[Zdjęcie eksperymentu]
+\end{frame}
+
+\begin{frame}{Dane}
+\includegraphics[width=\linewidth]{Data.png}
+\includegraphics[width=\linewidth]{Data_zoom.png}
+
+\end{frame}
+
+\begin{frame}{Redukcja danych}
+\centering
+\begin{tabular}{ccccc}
+\toprule
+Pomiar & wynik [s] & sigma [s] & temperatura [C] & wilgotność [\%] \\
+\midrule
+3 & 0.0534 & 0.0013 & 29.12 & 27.83 \\
+4 & 0.0533 & 0.0013 & 31.35 & 22.14 \\
+5 & 0.0544 & 0.0015 & 20.22 & 44.42 \\
+6 & 0.0548 & 0.0018 & 18.25 & 51.11 \\
+7 & 0.0550 & 0.0012  & 18.22 & 51.53 \\
+\bottomrule
+\end{tabular}
+
+
+\end{frame}
+
+\begin{frame}{wyniki i dyskusja błędu pomiarowego}
+[wykres temperatura vs prędkość]
+
+[wykres wilgotność vs prędkość]
+
+[wykres 3D/corner plot temperatura vs wilgotność vs prędkość]
+
+Empiryczny wzór na Temperaturę od wilgotności i temperatury.
+\end{frame}
+
+
+\section{Stałe fizyczne}
+
+\begin{frame}{Stała Plancka}
+
+\end{frame}
+
+
+\section{Podsumowanie}
+
+\begin{frame}{Dalsze kontynuacje badań}
+\begin{itemize}
+\item Stała Faradaya ($F$)
+\item Ładunek elementarny ($e^-$)
+\item Odległość Ziemia-Księżyc ($d_{\oplus - \leftmoon}$)
+\item Promień Księżyca ($R_{\leftmoon}$)
+\end{itemize}
+
+\end{frame}
+
+
+
+\end{document}
